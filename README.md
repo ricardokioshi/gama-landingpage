@@ -1,1 +1,3 @@
-# gama-landingpage
+# gama-academy
+-Landing Page
+
