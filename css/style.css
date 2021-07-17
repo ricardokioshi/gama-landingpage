@@ -1,0 +1,234 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+  }
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff
+}
+
+h1 {
+    font-size: 38px;
+    color: #e40b0f;
+}
+
+header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 40px 80px 0 80px;
+    background-image: linear-gradient(-90deg, #000000, #000000);
+}
+
+header div {
+    margin: auto;
+    margin-left: 0;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav ul li {
+    padding: 0 20px;
+    list-style: none;
+    font-size: 20px; 
+}
+
+a{
+    text-decoration:none;
+    color: white;
+}
+
+#inicio {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    padding: 30px 80px;
+    background-image: linear-gradient(-90deg, #000000, #000000);
+	position: relative;
+    
+    
+}
+
+#inicio div {
+    width: 700px;
+    padding-right: 80px;
+}
+
+#home div p {
+    margin-top: 20px;
+    font-size: 20px;	
+}
+
+#inicio div button {
+    width: 150px;
+    height: 50px;
+    border-radius: 90px;
+    border: none;
+    margin: 20px 0;
+    font-size: 20px;
+    font-weight: 650;
+    background: #C14649;
+    color: #fff
+}
+
+#inicio div button:hover {
+    background: rgb(219, 90, 92);
+}
+
+#sobre {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    height: 100vh;
+    width: 100vw;
+    background: #fff;
+}
+
+#sobre div {
+    width: 300px;
+}
+
+#sobre div h1 {
+    margin: 10px 0;
+    font-size: 30px;
+    color: #242323;
+}
+
+#sobre div p {
+    color: #242323;
+}
+
+#sobre div img {
+    width: 100px;
+    height: 100px;
+}
+
+#reserva {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 100vh;
+    width: 100vw;
+    background-image: url(../assets/car2.png);
+    padding: 0 30px;
+}
+
+
+#reserva div {
+    text-align: center;
+}
+
+#reserva div h1 {
+    margin-bottom: 50px;
+    
+}
+
+#reserva form {
+    width: 330px;
+    color: #020103;
+    background: #fff;
+    padding: 40px;
+    border-radius: 10px;
+    font-size: 18px;
+}
+
+#reserva form input {
+    width: 250px;
+    margin: 10px 0;
+    padding: 7px;
+    background: #fff;
+    border: solid 1px #020103;
+    font-size: 14px;
+}
+
+#reserva form button {
+    background: #C14649;
+    width: 250px;
+    height: 55px;
+    border: none;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 20px;
+    border-radius: 50px;
+}
+
+#cursos form button:hover {
+    background: #717174; 
+}
+
+#reserva input {
+    width: 250px;
+    margin: 10px 0;
+    padding: 9px;
+    background: #fff;
+    border: solid 1px #020103;
+    font-size: 14px;
+    border-radius: 10px;
+}
+
+
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80px;
+    background: #fff;
+    color: #242323;
+    font-size: 20px;
+}
+
+
+@media (max-width: 1000px) {
+    #inicio img {
+        display: none;
+    }
+}
+
+@media (max-width: 800px) {
+    header {
+        padding: 40px 40px 0 40px;
+    }
+    
+    nav ul li {
+        padding: 0 10px;
+        list-style: none;
+        font-size: 18px; 
+    }
+    
+    #inicio {
+        padding: 10px 40px;
+    }
+
+    #inicio div {
+        padding-right: 0px;
+    }
+    
+    #inicio img {
+        display: none;
+    }
+    
+    #sobre {
+        display: flex;
+        flex-direction: column;
+        height: 800px;
+        padding: 40px 0;
+    }
+    
+    #reserva div {
+        display: none;
+    }
+    
+}

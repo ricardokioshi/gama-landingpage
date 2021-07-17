@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>RentalLux</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header>
+        <div>
+            <a href="index.html"><img src="assets/logo.png" alt="RentalLux"></a>
+        </div>
+        <nav>
+            <ul>
+                <a href="index.html">
+                    <li>Home</li>
+                </a>
+                <a href="#sobre">
+                    <li>Sobre</li>
+                </a>
+                <a href="#reserva">
+                    <li>Reserva</li>
+                </a>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="inicio">
+        <div>
+            <h1>#BlackRental 45%OFF</h1>
+            <h2>
+                Alugue o carro dos seus sonhos!
+            </h2>
+
+            <button onclick="document.location='#reserva'">Reserve Já!</button>
+        </div>
+        <img src="assets/car.png" alt="">
+    </section>
+
+    <section id="sobre">
+        <div>
+            <img src="assets/crash.png" alt="">
+            <h1>Cobertura Total</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                dolore magna aliqua.
+            </p>
+        </div>
+        <div>
+            <img src="assets/suporte.png" alt="">
+            <h1>Assistência Auto 24h</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                dolore magna aliqua.
+            </p>
+        </div>
+        <div>
+            <img src="assets/airport.png" alt="">
+            <h1>Translado Gratuito </h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                dolore magna aliqua.
+            </p>
+        </div>
+    </section>
+
+    <section id="reserva">
+        <form id="form">
+            <h2>Faça a sua reserva</h2>
+            <input type="text" id="nome" placeholder="Nome ">
+            <input type="text" id="email" placeholder="Endereço de e-mail">
+            <button type="submit">Reservar</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>Todos os direitos reservados RentalLux</p>
+    </footer>
+</body>
+<script src="js/script.js"></script>
+</html>
